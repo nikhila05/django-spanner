@@ -1,8 +1,8 @@
 import os
 from setuptools import setup
 
-with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
-    README = readme.read()
+# with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+#     README = readme.read()
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -22,11 +22,11 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
 
 setup(
     name='django-spanner',
-    version='0.0.3',
+    version='0.0.4',
     packages=['django_spanner'],
     include_package_data=True,
     description='A Django deployment package for all hosting types.',
-    long_description=README,
+    long_description="\n\n".join([open("README.rst").read()]),
     url='https://github.com/MicroPyramid/django-spanner',
     author='Micropyramid',
     author_email='hello@micropyramid.com',

@@ -23,8 +23,8 @@ Deploy Django Project with Fabric
    :target: https://pypi.python.org/pypi/django-spanner/
 
 
-Setup:
--------
+`Django spanner`_ Setup:
+------------------------
 
 * First, create an YAML file similar to `sample_config.yaml`_ and fill the configuration details.
 
@@ -72,3 +72,16 @@ Usage:
 NOTE:
 -------
 By default, all the functions will run on the local system.
+
+You can view the complete `Documentation Here`_
+
+Questions, Comments, etc?
+-------------------------
+
+We welcome your feedback and support, raise `github ticket`_ if you want to report a bug. Need new features? `Contact us here`_
+
+
+.. _contact us here: https://micropyramid.com/contact-us/
+.. _Documentation Here: http://django-spanner.readthedocs.io/en/latest/
+.. _github ticket: https://github.com/MicroPyramid/django-spanner/issues
+.. _Django spanner: https://micropyramid.com/oss/
